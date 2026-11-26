@@ -1,0 +1,109 @@
+{
+ "meta": {
+  "checked": "2026-11",
+  "notes": "Specs move every few weeks; each row lists the official pages it was checked against. Rows without official sources were taken from the linked AI Video Directory listing.",
+  "maintained_by": "Owen Zhang",
+  "index": "https://aivideodirectory.com/"
+ },
+ "models": [
+  {
+   "model": "Kling 4.0",
+   "maker": "Kuaishou",
+   "clip_seconds": "3-30",
+   "max_resolution": "Native 4K, optional 10-bit HDR",
+   "native_audio": "Yes, dialogue in 9 languages",
+   "free_tier": "Watermarked exports; watermark removal is paid",
+   "status": "available",
+   "listing": "https://aivideodirectory.com/models/kling-4-0",
+   "sources": []
+  },
+  {
+   "model": "Veo 3.1",
+   "maker": "Google DeepMind",
+   "clip_seconds": "4-8",
+   "max_resolution": "Up to 4K",
+   "native_audio": "Yes",
+   "free_tier": "Daily Flow credits",
+   "status": "retiring: Gemini API preview closed Oct 2026; Flow retires Veo 3.1 Fast/Quality on 2026-12-05",
+   "listing": "https://aivideodirectory.com/models/veo-3-1",
+   "sources": [
+    "https://deepmind.google/models/veo/",
+    "https://ai.google.dev/gemini-api/docs/video",
+    "https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-1-generate",
+    "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+   ]
+  },
+  {
+   "model": "Gemini Omni 1.2 Flash",
+   "maker": "Google DeepMind",
+   "clip_seconds": "3-15",
+   "max_resolution": "Up to 4K (upscaled)",
+   "native_audio": "Yes",
+   "free_tier": "Daily Flow credits (about 16 s at 720p)",
+   "status": "available",
+   "listing": "https://aivideodirectory.com/models/gemini-omni-1-2-flash",
+   "sources": [
+    "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/",
+    "https://aistudio.google.com/docs/models/gemini-omni-flash",
+    "https://support.google.com/flow/answer/16526234"
+   ]
+  },
+  {
+   "model": "Seedance 2.5",
+   "maker": "ByteDance",
+   "clip_seconds": "4-30",
+   "max_resolution": "Up to 4K (API)",
+   "native_audio": "Yes, single pass",
+   "free_tier": "Daily Dreamina credits",
+   "status": "available",
+   "listing": "https://aivideodirectory.com/models/seedance-2-5",
+   "sources": [
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+    "https://ai.byteplus.com/ark/region:ap-southeast-1/docs/seedance-2-5",
+    "https://ai.byteplus.com/ark/region:ap-southeast-1/docs/model-pricing"
+   ]
+  },
+  {
+   "model": "Seedance 2.5 Flash",
+   "maker": "ByteDance",
+   "clip_seconds": "4-30",
+   "max_resolution": "480p, 720p",
+   "native_audio": "Yes",
+   "free_tier": "Not published",
+   "status": "available",
+   "listing": "https://aivideodirectory.com/models/seedance-2-5-flash",
+   "sources": [
+    "https://ai.byteplus.com/ark/region:ap-southeast-1/docs/model-release-announcement",
+    "https://dreamina.capcut.com/seedance/seedance-2-5-flash"
+   ]
+  },
+  {
+   "model": "Runway Gen-4.5",
+   "maker": "Runway",
+   "clip_seconds": "2-10",
+   "max_resolution": "720p; 4K upscale on paid plans",
+   "native_audio": "Yes (announced Dec 2025)",
+   "free_tier": "125 credits once; not usable for Gen-4.5",
+   "status": "available",
+   "listing": "https://aivideodirectory.com/models/runway",
+   "sources": [
+    "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+    "https://runwayml.com/pricing"
+   ]
+  },
+  {
+   "model": "Sora 2",
+   "maker": "OpenAI",
+   "clip_seconds": "up to 20 (API)",
+   "max_resolution": "720p; 1080p on Pro",
+   "native_audio": "Yes",
+   "free_tier": "None",
+   "status": "discontinued April 2026",
+   "listing": "https://aivideodirectory.com/models/sora-2",
+   "sources": [
+    "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "https://platform.openai.com/docs/models/sora-2"
+   ]
+  }
+ ]
+}
